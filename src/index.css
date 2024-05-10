@@ -18,13 +18,13 @@
 
 @layer components{
   .contactInput{
-    @apply w-full rounded-lg border-b-[1px] bg-[#191b1e] 
-    text-lightText px-4 active:outline-none focus-visible:outline-pink-600 outline-none focus-visible:border-b-transparent duration-300
+    @apply w-full rounded-lg border-b-[1px]  border-sky-500 bg-[#191b1e] 
+    text-lightText px-4 active:outline-none focus-visible:outline-sky-400 outline-none focus-visible:border-b-transparent duration-300
   }
 
   .aboutLinks{
-    @apply w-full h-12  bg-opacity-25 text-xl font-textFont text-gray-300 flex justify-center cursor-pointer 
-    duration-300 items-center shadow-pink-600 shadow-md rounded-none hover:bg-pink-600 hover:bg-opacity-60 hover:border-none
+    @apply w-full h-12  bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer 
+    duration-300 items-center shadow-sky-400 shadow-md rounded-none hover:bg-sky-600 hover:bg-opacity-70 hover:border-none
   }
 } 
 

@@ -8,7 +8,7 @@ export default function Contact() {
     <section id="Contact" className='w-full h-auto pb-10 border-b-[1px] border-b-gray-400 my-10 mt-20'>
 
         <div>
-         <h3 className='text-6xl font-titleFont lgl:text-5xl text-white-300 font-bold capitalize flex justify-center items-center text-center pt-10'>
+         <h3 className='text-5xl font-textFont lgl:text-5xl text-white-300 font-bold capitalize flex justify-center items-center text-center pt-10'>
             Contact With Me
          </h3>
          </div>
