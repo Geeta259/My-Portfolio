@@ -7,21 +7,21 @@ export default function LeftContact() {
   return (
     <div className='w-full lgl:w-[35%] h-full p-4 lgl:p-8 rounded-lg  flex flex-col justify-center lgl:mt-20'>
       
-       <div className='flex flex-col gap-3 lgl:mt-20 mb-10 font-textFont'>
+       <div className='flex flex-col gap-3 lgl:mt-20 mb-10'  style={{'font-family':'sans-serif'}}>
           <div>
-            <h3 className='text-3xl font-bold text-white'>GEETA</h3>
+            <h3 className='text-4xl font-bold text-white'>GEETA</h3>
              </div>
         
             <div className='flex flex-col gap-1'>
-            <span className='text-base text-gray-400  text-lightText'>Master in Computer Application</span>
-            <span className='text-base text-gray-400  text-xl text-lightText'>National Institute of Technology, Raipur</span>
+            <span className='text-base text-gray-400  text-xl  text-lightText'>Master in Computer Application</span>
+            <span className='text-base text-gray-400  text-md text-lightText'>National Institute of Technology, Raipur</span>
             </div>
           
             <p className='text-base text-gray-400 flex items-center mt-3 gap-3'>
-                <span className='text-3xl text-pink-600'><FaPhone/></span> <span className='text-xl text-white'>9272817128</span>
+                <span className='text-3xl text-sky-400'><FaPhone/></span> <span className='text-xl text-white'>9272817128</span>
             </p>
             <p className='text-base text-gray-400 flex items-center gap-3'>
-            <span className='text-3xl text-pink-600'> <AiFillMail/></span><span className='text-xl text-white'>geetkiroula1999@gmail.com</span>
+            <span className='text-3xl text-sky-400'> <AiFillMail/></span><span className='text-xl text-white'>geetkiroula1999@gmail.com</span>
             </p>                
         </div>
 

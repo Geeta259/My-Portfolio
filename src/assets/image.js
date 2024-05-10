@@ -1,8 +1,8 @@
 //all images import here which we need in project then export 
-import mypics from "./images/mypics.png"
-import project1 from "./images/project1.jpg"
-import project2 from "./images/project2.jpeg"
-import project3 from "./images/project3.jpg"
+import mypics from "./images/myimage.png"
+import project1 from "./images/project1.png"
+import project2 from "./images/project2.png"
+import project3 from "./images/project3.png"
 import contactme from "./images/contactme.jpeg"
 import hackerranklogo from "./images/hackerranklogo.jpeg"
 import coderushlogo from "./images/coderushlogo.jpeg"
@@ -16,12 +16,18 @@ import php from "./images/php.png"
 import github from "./images/github.png"
 import bootstrap from "./images/bootstrap.png"
 import react from "./images/react.png"
+import spring from "./images/spring.png"
+import  project4 from "./images/project4.png"
+import  project5  from  "./images/project5.png"
+
 
 export{
  mypics,
  project1,
  project2,
  project3,
+ project4,
+ project5,
  contactme,
  hackerranklogo,
  coderushlogo,
@@ -34,5 +40,6 @@ export{
  bootstrap,
  tailwind,
  github,
- react
+ react,
+ spring
 };

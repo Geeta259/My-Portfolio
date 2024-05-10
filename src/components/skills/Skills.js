@@ -1,11 +1,11 @@
 import React from 'react'
 import Skillscard from './Skillscard'
-import { html,css,c,java,php,js,bootstrap,tailwind,github,react} from '../../assets/image'
+import { html,css,c,java,php,js,bootstrap,tailwind,github,react, spring} from '../../assets/image'
 export default function Features() {
   return (
     <section id="Skills" className='w-full mt-20 pb-20'>
       <div>
-         <h3 className='text-6xl text-white-300 font-titleFont font-bold capitalize flex justify-center items-center'>
+         <h3 className='text-5xl text-white-300 font-textFont font-bold capitalize flex justify-center items-center'>
            My Skills
          </h3>
       </div>
@@ -21,6 +21,7 @@ export default function Features() {
            <Skillscard Logo={github} Title="GitHub" style={`shadow-gray-400`}/>
            <Skillscard Logo={tailwind} Title="Tailwind" style={`shadow-sky-400`}/>
            <Skillscard Logo={react} Title="React" style={`shadow-sky-700`}/>
+           <Skillscard Logo={spring} Title="Spring Boot" style={`shadow-green-700`}/>
         </div>
    </section>
   )
