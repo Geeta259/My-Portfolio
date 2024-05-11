@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {BsFacebook, BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs';
+import { resume } from '../../assets/image';
 
 export default function RightBanner() {
     
@@ -19,7 +20,7 @@ export default function RightBanner() {
              
                 <h1 className='text-4xl font-bold pt-10 text-white font-textFont'>
                     Hi There, I'm  
-                    <span className='text-6xl text-sky-400 capitalize font-headingFont tracking-wide'> Geeta</span>
+                    <span className='text-5xl text-sky-400 capitalize font-textFont'> Geeta</span>
                 </h1>
 
                 <h2 className='text-4xl font-bold font-textFont'>a <span className='text-sky-500'>{text}</span>
@@ -48,7 +49,7 @@ export default function RightBanner() {
                         <span className='rounded-md text-3xl hover:-translate-y-2 transition-all hover:text-blue-600 duration-200'><BsLinkedin/></span>
                         <span className='rounded-md text-3xl hover:-translate-y-2 transition-all hover:text-red-600 duration-200'><BsInstagram/></span>
 
-                       <a href="images/Geeta_Resume.html" download className='rounded-lg  w-30 h-10 ml-10 text-white text-xl p-2 cursor-pointer border-[1px] border-sky-400 hover:bg-sky-600 bg-opacity-60'>Download CV</a>
+                       <a href={resume} download={resume} className='rounded-lg  w-30 h-10 ml-10 text-white text-xl p-2 cursor-pointer border-[1px] border-sky-400 hover:bg-sky-600 bg-opacity-60'>Download CV</a>
 
                     </div>
                 </div>
