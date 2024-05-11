@@ -19,6 +19,7 @@ import react from "./images/react.png"
 import spring from "./images/spring.png"
 import  project4 from "./images/project4.png"
 import  project5  from  "./images/project5.png"
+import resume from  "./images/Resume.pdf"
 
 
 export{
@@ -41,5 +42,6 @@ export{
  tailwind,
  github,
  react,
- spring
+ spring,
+ resume
 };
