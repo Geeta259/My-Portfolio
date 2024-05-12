@@ -49,7 +49,7 @@ export default function RightBanner() {
                         <span className='rounded-md text-3xl hover:-translate-y-2 transition-all hover:text-blue-600 duration-200'><BsLinkedin/></span>
                         <span className='rounded-md text-3xl hover:-translate-y-2 transition-all hover:text-red-600 duration-200'><BsInstagram/></span>
 
-                       <a href={resume} download={resume} className='rounded-lg  w-30 h-10 ml-10 text-white text-xl p-2 cursor-pointer border-[1px] border-sky-400 hover:bg-sky-600 bg-opacity-60'>Download CV</a>
+                       <a href={resume} download={resumee} className='rounded-lg  w-30 h-10 ml-10 text-white text-xl p-2 cursor-pointer border-[1px] border-sky-400 hover:bg-sky-600 bg-opacity-60'>Download CV</a>
 
                     </div>
                 </div>
