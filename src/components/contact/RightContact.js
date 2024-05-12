@@ -17,7 +17,7 @@ export default function RightContact() {
     const sendEmail = () => {
         emailjs.sendForm('service_bvbyd3c', 'template_kre2ixs', form.current, '4-pg2FzuaBvMMabHl')
           .then((result) => {
-            setsuccess(`Thankyou !! ${username} for contacts with Geeta`);
+            setsuccess(`Thankyou !! ${username} for contact with Geeta`);
              
             seterror("");
             setusername("");;
